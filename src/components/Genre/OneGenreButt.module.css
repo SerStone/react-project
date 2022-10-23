@@ -1,0 +1,45 @@
+@media screen and (max-width: 480px) {
+    .buttonGenre{margin: 10px}
+}
+@media screen and (min-width: 2000px) {
+
+    .buttonGenre{
+        width: 200px;
+
+        font-size: 25px;
+    }
+}
+.oneGenre{
+
+}
+
+.buttonGenre {
+
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0;
+
+    box-shadow: 0 0 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #a7aeb0 0%, #c71b33 51%, #ee2f09 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.buttonGenre:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttonGenre:active {
+    transform: scale(0.95);
+}
+

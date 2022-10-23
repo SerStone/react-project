@@ -1,0 +1,29 @@
+.searchInput {
+    height: 50%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    box-shadow: 0 0 5px 2px #505050;
+}
+
+.searchInput:hover{
+    border: none;
+}
+
+.searchBtn{
+    height: 30%;
+    background-color: #f5b75e;
+    border: white;
+    color: white;
+    border-radius: 20%;
+
+}
+.searchBtn:hover{
+    transition: opacity 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+    .searchInput{
+        width: 40%;
+    }
+}

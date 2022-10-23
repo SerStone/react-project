@@ -1,0 +1,35 @@
+.flexData {
+
+    justify-content: flex-start;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+.mainPage{
+
+}
+.upperHeader{
+
+}
+.pageElem {
+    width: 70%;
+}
+.sideBar {
+    height: 50%;
+    width: 15%;
+    display: flex;
+
+}
+
+@media screen and (max-width: 480px) {
+    .flexData {
+        flex-direction: column;
+    }
+    .sideBar {
+        width: 100%;
+
+    }
+    .pageElem {
+        width: 100%;
+    }
+}

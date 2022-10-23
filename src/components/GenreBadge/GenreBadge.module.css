@@ -1,0 +1,13 @@
+.badge{
+    font-size: 13px;
+    background-color: #e10000;
+    border-radius: 40%;
+    margin: 5px;
+    padding: 3px;
+    /*font-family: monospace sans-serif;*/
+    /*width: 40%;*/
+    text-align: center;
+    color: cornsilk;
+    font-family: Monaco sans-serif;
+    white-space: normal;
+}

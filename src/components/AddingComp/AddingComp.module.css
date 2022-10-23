@@ -1,0 +1,41 @@
+.releases{
+    text-align: center;
+}
+
+:global(.swiper-slide){
+    min-width: 170px;
+    display: block;
+
+}
+:global(.swiper){
+    width: 100%;
+}
+
+:global(.swiper-button-next) {
+    color: #077792;
+    position: absolute;
+    right: 0;
+}
+:global(.swiper-button-prev) {
+     color: #077792;
+    position: absolute;
+    left: 0;
+ }
+
+
+@media screen and (max-width: 480px) {
+    :global(.swiper){
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    :global(.swiper){
+        width: 70%;
+    }
+
+}
+@media screen and (min-device-width: 2100px) and (max-width: 4000px) {
+    :global(.swiper){
+        width: 80%;
+    }
+}

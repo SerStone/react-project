@@ -1,0 +1,26 @@
+.cssFilter{
+    display: flex;
+    box-shadow: 0 0 5px 2px #8d8989;
+    gap: 10px;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cssFilter{
+list-style-type: none;
+}
+
+@media screen and (max-width: 480px) {
+    .cssFilter{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 40px;
+    }
+}
+@media screen and (min-width: 480px) {
+    .cssFilter{ flex-direction: column}
+}
